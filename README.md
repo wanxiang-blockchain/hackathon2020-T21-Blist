@@ -2,7 +2,7 @@
 
 Team Blist for Wangxiang Hackathon week2020
 
-A new FRAME-based Substrate node, ready for hacking :rocket:
+A  [Substrate](https://substrate.dev/)-based blockchain node&front, ready for hacking :rocket:
 
 Token/NFT(Generate/Transfer/Burn) contributes for Smart City Construction. 
 
