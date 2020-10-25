@@ -1,0 +1,18 @@
+version: "3.2"
+
+services:
+  dev:
+    container_name: blist
+    image: paritytech/ci-linux:production
+    working_dir: /var/www/blist
+    ports:
+      - "9944:9944"
+    environment:
+      - CARGO_HOME=/var/www/blist/.cargo
+      - WASM_BUILD_TOOLCHAIN=nightly-2020-10-05
+    volumes:
+      - .:/var/www/blist
+      - type: bind
+        source: ./.local
+        target: /root/.local
+    command: bash -c "cargo build --release && ./target/release/blist --dev --ws-external"
