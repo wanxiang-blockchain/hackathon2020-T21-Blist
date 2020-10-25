@@ -1,4 +1,4 @@
-# Team Blist(https://github.com/blist-project) 
+# [Team Blist](https://github.com/blist-project )
 
 Team Blist for Wangxiang Hackathon week2020
 
